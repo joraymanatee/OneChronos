@@ -1,7 +1,7 @@
 import pandas as pd
 
-trades = pd.read_csv("trade_data_2024_04_01.csv")
-quotes = pd.read_csv("quote_data_2024_04_01.csv")
+trades = pd.read_csv("data/trade_data_2024_04_01.csv")
+quotes = pd.read_csv("data/quote_data_2024_04_01.csv")
 
 print(trades.columns)
 print(quotes.columns)
